@@ -1,0 +1,44 @@
+body{
+    margin: 0px;                             
+    font-family: 'Roboto', sans-serif;
+} 
+#product-overview{
+    background: #ff1b68; 
+    width: 100%;                             /*width can be used eityher in % or in absolute value, 100% is default*/
+    height: 528px;                          /*height can never be 100% directly if we try it, the element is going to the height 
+                                              100% of that height which is allocated by its parent. 
+                                              
+                                              
+                                              
+                                              using the trick ::
+                                              After the elemets which is given 100% height using this all other eliments rather than 
+                                              that are going to overflow and would not be considerd 
+
+                                              trick for 100%
+                                              
+                                              html =>its height is = current view port height without scroll
+                                              body, main= >its height is according to its entire content
+                                              section =>it request 100% height of main
+                                                        other elements => overflow with scroll bar and would not be
+                                                        included in the current html parrsed view port height , and 
+                                                        completely considered as over flow by the browser
+
+                                                <html style='height =100%;>'
+                                                    <body style='height =100%;>
+                                                        <main style='height =100%;>
+                                                            <section style='height =100%;>
+                                                                <h1> </>
+                                                            </>
+                                                        </>
+                                                    </>
+                                               </>
+                                              */
+}
+
+#product-overview h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+.section-title{
+    color:#2ddf5c;
+}
