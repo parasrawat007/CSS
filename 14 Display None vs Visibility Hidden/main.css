@@ -1,0 +1,11 @@
+.a , .b ,.c{
+    height: 100px;
+    width: 100px;
+    background: green;
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.a{
+    visibility: hidden;
+}
