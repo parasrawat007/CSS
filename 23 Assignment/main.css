@@ -1,0 +1,97 @@
+html , body{
+    height: 100%;
+}
+
+
+
+.box-1
+{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px 10px;
+}
+.box-2
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 40px 30px 20px 10px;
+}
+.box-3
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 40px 30px 20px 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.box-4
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 40px 30px 20px 10px;
+    height: 300px;
+    width: 50%;
+}
+.box-5
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.box-6
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.box-7 
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 40px 30px 20px 10px;
+    height: 300px;
+    width: 300px;
+    display: none;
+}
+
+.box-8
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 40px 30px 20px 10px;
+    height: 300px;
+    width: 300px;
+    visibility: hidden;
+}
+div:last-of-type
+{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 40px 30px 20px 10px;
+    height: 300px;
+    width: 300px;
+}
+div:last-of-type:hover
+{
+    padding: 10px 20px 30px 40px;
+    background: green;
+    border: 2px solid black;
+    text-align: center;
+    margin: 40px 30px 20px 10px;
+    height: 300px;
+    width: 300px;
+    
+}
