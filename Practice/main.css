@@ -12,10 +12,10 @@
 }
 .nav-brand
 {
-   
     display: inline-block;
 }
 .nav-brand >a{
+    font-weight: bold;
     color: white;
     text-decoration: none;
     font-size: 22px;
@@ -38,9 +38,50 @@
 {
     color: white;
     text-decoration: none;
+    padding: 0px 5px;
 }
 
-#greeting
+.nav-link:hover,
+.nav-link:active
+{
+    color:#3355ff;
+    border-bottom: 0.7px solid #3355ff;
+}
+.btn
+{
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px 5px;
+    border: 3px solid #3355ff ;
+    border-radius: 7px;
+}
+.btn:hover,
+.btn:active
+{
+    color: #3355ff;
+    background: black;
+    text-decoration: none;
+    padding: 2px 5px;
+    border: 3px solid white;
+}
+
+#first-look{
+    margin:10px 50px;
+    background: url("Night-City.jpg");
+    height: 500px;
+}
+#first-look h1{
+    color: white;
+    text-shadow: 2px 2px gray;
+    padding: 50px 50px;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+#our-vision
 {
     color: white;
     background: #3355ff;
