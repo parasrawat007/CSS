@@ -40,7 +40,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-    vertical-align: middle;
+    
 }
 
 .main-nav{
@@ -52,6 +52,7 @@ body{
 
 .main-nav__item{
     display: inline-block;
+    vertical-align: middle;
 }
 .main-nav__items{
     margin: 0px;
