@@ -54,17 +54,19 @@
     font-weight: bold;
     text-decoration: none;
     padding: 2px 5px;
-    border: 3px solid #3355ff ;
+    box-shadow: -2px -2px 4px rgba(51, 85, 255, 0.95);
+    border: 3px solid rgb(51, 85, 255) ;
     border-radius: 7px;
 }
 .btn:hover,
 .btn:active
 {
-    color: #3355ff;
-    background: black;
+    color: rgb(41, 67, 199);
+    background: rgb(189, 189, 189);
     text-decoration: none;
     padding: 2px 5px;
-    border: 3px solid white;
+    border: 3px solid rgb(24, 41, 121) ;
+    box-shadow: 2px 2px 4px rgba(51, 85, 255, 0.95);
 }
 
 #first-look{
@@ -78,37 +80,77 @@
     padding: 50px 50px;
     font-weight: bold;
     font-size: 50px;
-    
+
 }
 
-#our-vision
-{
-    color: white;
-    background: #3355ff;
-    padding: 10px;
-    font-size: 50px;
-    margin: 10px 0px;
-}
 
 #plans
 {
     padding: 10px;
-    background: gray;
+    background: #3355ff;
     color: white;
 }
 
+
 .table
 {
-   
+    margin: 0px auto;
+    border-spacing: 0px;
 }
-
+.table th{
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
 .table-row
 {
-    
+
 }
 
-.table-data
+.table-row td
 {
-    padding: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
 
 }
+
+.benefits-list {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.rounded-image{
+    height: 100px;
+    width: 100px;
+    background: white;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.benefits > h1
+{
+    margin: 16px 0px;
+    text-align: center;
+}
+
+.benefit
+{
+    text-align: center;
+    color: white;
+    background: gray;
+    padding: 10px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.benefit-list{
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.benefit-list li{
+    text-align: center;
+    margin: 8px 0px;
+}
+
