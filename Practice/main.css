@@ -91,30 +91,9 @@
     color: white;
 }
 
-
-.table
-{
-    margin: 0px auto;
-    border-spacing: 0px;
+.benefits{
+    margin: 16px 0px;
 }
-.table th{
-    font-weight: bold;
-    font-size: 22px;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-}
-.table-row
-{
-
-}
-
-.table-row td
-{
-    font-size: 18px;
-    padding: 5px 10px;
-
-}
-
 .benefits-list {
     width: 90%;
     margin: auto;
