@@ -212,16 +212,17 @@
 .clear-fix{
     clear: both;
 }
+
 .footer{
     padding: 20px 0px;
     background: black;
     color: white;
 }
 .footer-nav{
-   padding: 10px;
+    padding: 10px;
     text-align: center;
-   margin: 0px auto;
-   font-size: 19px;
+    margin: 0px auto;
+    font-size: 19px;
 }
 .footer-list{
     list-style: none;
@@ -234,7 +235,6 @@
 .footer-item{
     padding: 5px 0px;
 }
-
 
 .footer-link
 {
