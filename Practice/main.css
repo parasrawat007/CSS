@@ -132,4 +132,37 @@
     text-align: center;
     margin: 8px 0px;
 }
+.plan{
+    padding:8px;
+    margin: 8px 0px;
+    width: 45%;
+}
+.
+.plan-left{
+
+    border: 4px solid #3355ff;
+    border-left: none;
+    
+}
+.plan-right{
+    border: 4px solid #3355ff;
+    border-right: none;
+    float: right;
+}
+.plan a{
+    margin-left: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.plan-title{
+    font-weight: bold;
+}
+.plan-price,
+.plan-info{
+    margin-left: 16px ;
+}
+.clear-fix{
+    clear: both;
+}
 
