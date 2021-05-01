@@ -134,7 +134,22 @@
 }
 .plans{
     margin: 16px 0px;
+    background: url("AdobeStock_322481501-718x523.jpeg");
 }
+.plans > h1{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.plans a{
+    margin-left: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
 .plan{
     padding:8px;
     margin: 8px 0px;
@@ -145,14 +160,30 @@
 .plan:active
 { 
     padding: 16px;
-    margin: 16px 0px;
     width: 55%;
+}
+.plan-left{
+    background: rgba(51, 85, 255, 0.800);
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    border: 4px solid rgba(36, 59, 175, 0.95);
+    border-left: none;
+    box-shadow: 2px 2px 8px rgba(146, 146, 146);
+}
+.plan-right{
+    background: rgba(255, 0, 21, 0.800);
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border: 4px solid rgba(228, 20, 37, 0.774);
+    box-shadow: -2px 2px 8px rgba(146, 146, 146);
+    border-right: none;
+    float: right;
 }
 
 .plan-left:hover,
 .plan-left:active
 { 
-    border: 4px solid red;
+    border: 4px solid rgba(255, 255, 255, 0.815);
     border-left: none;
 }
 
@@ -160,33 +191,23 @@
 .plan-right:hover,
 .plan-right:active
 { 
-    border: 4px solid #3355ff;
+    border: 4px solid rgba(255, 255, 255, 0.815);
     border-right: none;
 }
 
-.plan-left{
-    border: 4px solid #3355ff;
-    background: #3355ff;
-    border-left: none;
-    box-shadow: 2px 2px 8px rgba(146, 146, 146);
-}
-.plan-right{
-    background: red;
-    border: 4px solid red;
-    box-shadow: -2px 2px 8px rgba(146, 146, 146);
-    border-right: none;
-    float: right;
-}
-.plan a{
-    margin-left: 8px;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-}
+
 .plan-title{
     font-weight: bold;
+    display: inline-block;
+    padding-bottom: 0.5px;
 }
-.plan-price,
+.plan-price{
+    margin-left: 16px ;
+    color: #ccc;
+}
+.plan-price::first-letter{
+    font-size: 30px;
+}
 .plan-info{
     margin-left: 16px ;
 }
